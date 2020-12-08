@@ -2,9 +2,9 @@
 {{- range $testimonials -}}
 {{ $img   := printf "img/users/%s" .image | relURL -}}
 {{ $quote := .quote | markdownify -}}
-<div class="col-4 text-center align-items-start">
-  <a class="d-block mh-75 mb-4" href="{{ .link }}" target="_blank" rel="noopener">
-    <img src="{{ $img }}" alt="{{ .name }} testimonial logo">
+<div class="mb-3 col-12 col-sm-6 col-lg-4 text-center align-items-start">
+  <a class="d-block mb-4" href="{{ .link }}" target="_blank" rel="noopener">
+    <img class="user-logo" src="{{ $img }}" alt="{{ .name }} testimonial logo">
   </a>
   <p class="font-italic">
     {{- $quote -}}
