@@ -10,7 +10,7 @@ spelling: cSpell:ignore youtube Kubernetes Nulab Protop
 {{< /blocks/cover >}}
 
 <div class="container">
-<div class="row mt-5">
+<div class="row my-5">
 <div class="col-12 col-lg-9">
 <section class="py-0">
 
@@ -20,7 +20,7 @@ Here are a few of the customers who [successfully adopted **gRPC**][use-of-grpc]
 and other [CNCF technologies](https://www.cncf.io/projects/) in the past year
 
 <div class="mt-5 row justify-content-center">
-  <div class="col-9 col-lg-4 mb-4">
+  <div class="col-9 col-lg-4">
     <div class="h-100 card shadow">
       <div class="card-body">
         <h4>
@@ -37,7 +37,7 @@ How gRPC is enabling Salesforce’s unified interoperability strategy.
 
   </div>
 
-  <div class="col-9 col-lg-4 mb-4">
+  <div class="col-9 col-lg-4">
     <div class="h-100 card shadow" href="#">
       <div class="card-body">
         <h4>
