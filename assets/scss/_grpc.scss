@@ -1,7 +1,9 @@
 // GLOBAL
+a:not(.td-sidebar-link) > .fa-external-link-alt::before {
+  margin-left: 3px;
+}
 a > .fa-external-link-alt::before {
   font-size: 50%;
-  margin-left: 3px;
   opacity: 0.8;
   vertical-align: top;
 }
