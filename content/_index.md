@@ -4,7 +4,7 @@ linkTitle = "Docsy"
 
 +++
 
-{{< blocks/cover image_anchor="top" height="full" color="primary" >}}
+{{< blocks/cover image_anchor="top" height="max" color="primary" >}}
 <img class="homepage__logo" src="/img/logos/grpc-logo.png" />
 
 <p class="mb-3 display-2">
@@ -18,12 +18,12 @@ Learn more
 </a>
 <p class="mb-3 display-2 font-weight-normal">Get started!</p>
 <div class="inline-block align-middle">
-<a class="btn btn-primary">Go</a>
-<a class="btn btn-primary">C++</a>
-<a class="btn btn-primary">Java</a>
-<a class="btn btn-primary">Python</a>
-<a class="btn btn-primary">C#</a>
-<a class="btn btn-primary">…</a>
+<a class="btn btn-primary" href="/docs/languages/go/quickstart/">Go</a>
+<a class="btn btn-primary" href="/docs/languages/cpp/quickstart/">C++</a>
+<a class="btn btn-primary" href="/docs/languages/java/quickstart/">Java</a>
+<a class="btn btn-primary" href="/docs/languages/python/quickstart/">Python</a>
+<a class="btn btn-primary" href="/docs/languages/csharp/quickstart/">C#</a>
+<a class="btn btn-primary" href="/docs/languages/">…</a>
 {{< /blocks/cover >}}
 
 {{% blocks/lead color="white" %}}
