@@ -37,6 +37,7 @@ a > .fa-external-link-alt::before {
 // DOCS
 // In-page toc. Apply this class as a modifier to the Docsy-provided .td-toc
 .td-toc--inline {
+  padding-top: 0;
   border-left: none;
   position: static;
   height: auto;
@@ -51,5 +52,15 @@ a > .fa-external-link-alt::before {
 .prog-lang-home__list {
   ul {
     padding-left: 1.25rem;
+  }
+}
+
+.td-content {
+  & h1:first-child {
+    display: none;
+  }
+
+  & div.lead {
+    display: none;
   }
 }
