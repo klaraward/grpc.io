@@ -12,7 +12,6 @@ spelling: cSpell:ignore youtube Kubernetes Nulab Protop
 <div class="container">
 <div class="row my-5">
 <div class="col-12 col-lg-9">
-<section class="py-0">
 
 ## Customer success stories
 
@@ -20,10 +19,11 @@ Here are a few of the customers who [successfully adopted **gRPC**][use-of-grpc]
 and other [CNCF technologies](https://www.cncf.io/projects/) in the past year
 
 <div class="mt-5 row justify-content-center">
-  <div class="col-9 col-lg-4">
-    <div class="h-100 card shadow">
-      <div class="card-body">
-        <h4>
+
+<div class="col-9 col-lg-4 pb-4 pb-lg-0">
+<div class="h-100 card shadow">
+<div class="card-body">
+<h4>
           <!-- <a href="https://www.cncf.io/case-studies/salesforce/">Salesforce</a> -->
 
 [Salesforce](https://www.cncf.io/case-studies/salesforce/)
@@ -34,13 +34,12 @@ How gRPC is enabling Salesforce’s unified interoperability strategy.
 </p>
 </div>
 </div>
+</div>
 
-  </div>
-
-  <div class="col-9 col-lg-4">
-    <div class="h-100 card shadow" href="#">
-      <div class="card-body">
-        <h4>
+<div class="col-9 col-lg-4 pb-4 pb-lg-0">
+<div class="h-100 card shadow" href="#">
+<div class="card-body">
+<h4>
           <!-- <a href="https://www.cncf.io/case-studies/mux/">Mux</a> -->
 
 [Mux](https://www.cncf.io/case-studies/mux/)
@@ -51,13 +50,12 @@ How cloud native technology helps Mux simplify online video streaming.
 </p>
 </div>
 </div>
+</div>
 
-  </div>
-
-  <div class="col-9 col-lg-4">
-    <div class="h-100 card shadow">
-      <div class="card-body">
-        <h4>
+<div class="col-9 col-lg-4 pb-4 pb-lg-0">
+<div class="h-100 card shadow">
+<div class="card-body">
+<h4>
           <!-- <a href="https://www.cncf.io/case-studies/nulab/">Nulab</a> -->
 
 [Nulab](https://www.cncf.io/case-studies/nulab/)
@@ -68,8 +66,7 @@ How the productivity software company Nulab boosted its own productivity with mi
 </p>
 </div>
 </div>
-
-  </div>
+</div>
 
 </div>
 
@@ -85,32 +82,29 @@ There are [many CNCF projects](https://www.cncf.io/projects/) of which gRPC is
 one. For a complete list of customer stories describing the successful adoption
 of CNCF technologies, see the [CNCF case studies][] page.
 
-</section>
-<section class="pb-0">
-
 ## Developer stories
 
 Developer stories cover a variety of technical subjects related to gRPC. You can
 find developer stories for your [preferred language](/docs/languages/) on each
 **language-specific landing page**.
 
-<div class="buttons are-medium is-centered mt-5 mb-5">
-  <a class="button is-secondary is-light" href="/docs/languages/go/#dev-stories">
+<div class="d-flex justify-content-center my-5">
+  <a class="btn btn-light btn-lg font-weight-light" href="/docs/languages/go/#dev-stories">
     Go
   </a>
-  <a class="button is-secondary is-light" href="/docs/languages/cpp/#dev-stories">
+  <a class="ml-2 btn btn-light btn-lg font-weight-light" href="/docs/languages/cpp/#dev-stories">
     C++
   </a>
-  <a class="button is-secondary is-light" href="/docs/languages/java/#dev-stories">
+  <a class="ml-2 btn btn-light btn-lg font-weight-light" href="/docs/languages/java/#dev-stories">
     Java
   </a>
-  <a class="button is-secondary is-light" href="/docs/languages/python/#dev-stories">
+  <a class="ml-2 btn btn-light btn-lg font-weight-light" href="/docs/languages/python/#dev-stories">
     Python
   </a>
-  <a class="button is-secondary is-light" href="/docs/languages/csharp/#dev-stories">
+  <a class="ml-2 btn btn-light btn-lg font-weight-light" href="/docs/languages/csharp/#dev-stories">
     C#
   </a>
-  <a class="button is-secondary is-light" href="/docs/languages/">
+  <a class="ml-2 btn btn-light btn-lg font-weight-light" href="/docs/languages/">
     <i class="fas fa-ellipsis-h"></i>
   </a>
 </div>
@@ -133,12 +127,10 @@ Other developer stories are provided next.
   A [gRPC Conf 2020 presentation](https://sched.co/cRfo)
   by Jeffery Shivers, Toast, Inc
 - **Service Interoperability With gRPC: gRPC in Action**
-<a href="https://youtu.be/MLS7TFHrn_c"><i class="fab fa-youtube"></i></a>
-<a href="https://static.sched.com/hosted_files/grpcconf20/d3/Service%20Interoperability%20with%20gRPC.pdf"><i class="far fa-file"></i></a><br>
-A [gRPC Conf 2020 presentation](https://sched.co/cRfl)
-by Varun Gupta & Tuhin Kanti Sharma, Salesforce.
-</section>
-<section>
+  <a href="https://youtu.be/MLS7TFHrn_c"><i class="fab fa-youtube"></i></a>
+  <a href="https://static.sched.com/hosted_files/grpcconf20/d3/Service%20Interoperability%20with%20gRPC.pdf"><i class="far fa-file"></i></a><br>
+  A [gRPC Conf 2020 presentation](https://sched.co/cRfl)
+  by Varun Gupta & Tuhin Kanti Sharma, Salesforce.
 
 ## More
 
@@ -153,8 +145,10 @@ by Varun Gupta & Tuhin Kanti Sharma, Salesforce.
 [use-of-gRPC]: {{< param url_use_grpc >}}
 
 </div>
+<div class="col-3">
 <div class="d-none d-lg-block td-toc td-toc--inline ml-5">
 {{< page/toc >}}
+</div>
 </div>
 </div>
 </div>
