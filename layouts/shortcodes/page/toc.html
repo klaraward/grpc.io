@@ -1,4 +1,7 @@
 {{ with .Page.TableOfContents }}
 <h5 class="lead"><i class="fas fa-list mr-2"></i>Page Contents</h5>
-  {{ . }}
+  {{ partial "page-meta-links.html" $.Page }}
+  <div class="text-left">
+    {{ . }}
+  </div>
 {{ end }}
